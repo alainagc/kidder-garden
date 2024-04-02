@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
+   Tutorial 11
+   Case Problem 4
+
+   Kidder Garden Riddles Style Sheet
+
+   Filename: kg_riddles.css
+
+*/
+
+#title {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Josefin Slab', serif;
+  caption-side: top;
+  text-align: center;
+  margin: 0px 0px 20px;
+  color: rgb(3, 176, 141);
+}
+
+article p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.6em;
+  text-align: center;
+  width: 75%;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+article .riddle p {
+  font-size: 1.8em;
+  color: white;
+  padding: 10px;
+}
+
+#instruct {
+  font-size: 1.3em;
+}
+
+#answer1 {
+  display: none;
+}
+
+#answer2 {
+  display: none;
+}
+
+#answer3 {
+  display: none;
+}
+
+#answer4 {
+  display: none;
+}
+
+#answer5 {
+  display: none;
+}
+
+#riddle1 p, #riddle5 p {
+  background-color: rgb(255, 102, 171);
+}
+
+#riddle2 p {
+  background-color: rgb(3, 206, 164);
+}
+
+#riddle3 p {
+  background-color: rgb(251, 77, 61);
+}
+
+#riddle4 p {
+  background-color: rgb(244, 179, 51);
+}
